@@ -26,7 +26,7 @@ LOGGING = {
             'level': 'INFO',
             'address': '/dev/log',
             'facility': 'local0',
-            'formatter': 'splunk',
+            'formatter': 'verbose',
         },
         'console': {
             'level': 'DEBUG',
@@ -35,7 +35,7 @@ LOGGING = {
         },
     },
     'root': {
-        'handlers': ['root'],
+        'handlers': ['console'],
         'level': 'INFO'
     },
 }
