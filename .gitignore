@@ -191,7 +191,7 @@ ENV/
 /site
 
 .idea/
-deployment/tools/address/
+agreement/config.cfg
 
 # End of https://www.gitignore.io/api/macos,python,pycharm
 
